@@ -1,0 +1,45 @@
+body{
+  background-color: rgb(15, 15, 15);
+}
+
+.light-stem{
+  height: 7em;
+  width: 3em;
+  background-color: rgb(62, 60, 60);
+  flex-direction: column;
+  align-items:center;
+}
+
+
+.stop-light{
+  height: 23em;
+  width: 9em;
+  background-color: rgb(44, 42, 42);
+  text-align: center;
+}
+
+.red-light{
+  height: 7em;
+  width: 7em;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+.yellow-light{
+  height: 7em;
+  width: 7em;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green-light{
+  height: 7em;
+  width: 7em;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: .5em;
+}
